@@ -15,7 +15,7 @@ st.set_page_config(
 
 # ---- Sidebar controls ----
 st.sidebar.title("⚙️ Controls")
-name = st.sidebar.text_input("Your name", value="Sidhanth")
+name = st.sidebar.text_input("Your name", value="Arindam Jaiman")
 points = st.sidebar.slider("Data points (days)", 30, 365, 120, step=15)
 noise = st.sidebar.slider("Noise level", 0.0, 1.0, 0.25, 0.05)
 chart_type = st.sidebar.selectbox("Chart type", ["Line", "Area", "Bar"])
